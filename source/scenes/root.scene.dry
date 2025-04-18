@@ -85,12 +85,12 @@ Q.arditi_formed = 0;
 // organisations
 
 // inter-party relations
-Q.ul_relation = 37;
-Q.ldr_relation = 37;
-Q.ds_relation = 37;
-Q.ppi_relation = 40;
-Q.psri_relation = 60;
-Q.pri_relation = 60;
+Q.ul_relation = 60;
+Q.ldr_relation = 60;
+Q.ds_relation = 60;
+Q.ppi_relation = 80;
+Q.psri_relation = 90;
+Q.pri_relation = 90;
 // PNF relations are invariably hostile
 Q.pnf_relation = 0;
 
@@ -215,11 +215,11 @@ Q.sympathiser_expelled = 0;
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalised.
 Q.workers_pcdi = 0;
-Q.workers_psi = 69;
+Q.workers_psi = 78;
 Q.workers_psu = 0;
 Q.workers_pri = 0;
 Q.workers_ppi = 3;
-Q.workers_ldr = 9;
+Q.workers_ldr = 0;
 Q.workers_ds = 6;
 Q.workers_ul = 4;
 Q.workers_pnf = 2;
@@ -251,12 +251,12 @@ Q.industrialists_psri = 0;
 Q.industrialists_other = 1;
 
 Q.rural_pcdi = 0;
-Q.rural_psi = 27;
+Q.rural_psi = 37;
 Q.rural_psu = 0;
 Q.rural_pri = 0;
 Q.rural_ppi = 25;
 Q.rural_ldr = 17;
-Q.rural_ds = 16;
+Q.rural_ds = 6;
 Q.rural_ul = 6;
 Q.rural_pnf = 0;
 Q.rural_psri = 0;
@@ -287,12 +287,12 @@ Q.catholic_psri = 1;
 Q.catholic_other = 13;
 
 Q.women_pcdi = 0;
-Q.women_psi = 14;
+Q.women_psi = 24;
 Q.women_psu = 0;
 Q.women_pri = 0;
 Q.women_ppi = 34;
 Q.women_ldr = 18;
-Q.women_ds = 10;
+Q.women_ds = 0;
 Q.women_ul = 17;
 Q.women_pnf = 6;
 Q.women_psri = 8;
