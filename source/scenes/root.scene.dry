@@ -40,8 +40,8 @@ Q.old_demographics = 0;
 Q.use_decimals = 1;
 
 // party resources
-Q.resources = 2;
-Q.para_resources = 2;
+Q.resources = 88;
+Q.para_resources = 88;
 // party dues
 Q.dues = 2;
 
